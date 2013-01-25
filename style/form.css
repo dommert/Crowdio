@@ -1,0 +1,75 @@
+/*
+Crowdio CSS Form
+V 1.0
+
+*/
+
+.single-crowdios #comments {
+	display:none;
+}
+
+.single-crowdios .entry-meta {
+	display:none;
+}
+
+.submittedBlank {
+	border: 1px dotted red;
+}
+
+.crowdio_form_error {
+	color: red;
+	font-weight: bold;
+}
+
+.idea {
+	margin:5pt;
+	padding:5pt;
+	border: 1px solid cornflowerblue;
+	border-top-width: 10px;
+	border-radius: 5pt;-moz-border-radius: 5pt;-webkit-border-radius: 5pt;
+
+}
+
+.crowdioComment {
+	padding:23pt;
+}
+.single-crowdios .secondlevel {
+	margin-left: 20pt;
+	border-left: 1px solid gray;
+}
+.crowdioComment.secondlevel {
+	border-radius: 0 0 100px 23px;
+	-moz-border-radius: 0 0 100px 23px;
+	border-left: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+}
+.single-crowdios .thirdlevel {
+	margin-left: 20pt;
+	border-left: 1px solid gray;
+}
+
+.post-type-archive-crowdios .comments-link {
+	display:none;
+}
+
+.post-type-archive-crowdios .entry-utility .meta-sep {
+	display:none;
+}
+
+.ideaVoteButton a {
+	font-size: 1.5em;
+	font-family: "Arial";
+	text-decoration: none;
+	color: gray !important;
+}
+
+.ideaVoteTotalScore, .ideaDate {
+	font-size: .789em;
+}
+
+
+/* Style voting buttons per their vote, if they have voted. */
+.currentUserHasVotedUp .ideaVoteButton.up a,
+.currentUserHasVotedDown .ideaVoteButton.down a {
+	color: orange !important;
+}
